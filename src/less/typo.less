@@ -1,0 +1,28 @@
+/* Typography */
+h1, h2, h3,h4,h5,h6 {
+	text-align: center;
+}
+
+h2.title {
+	font-size: 1.9rem;
+	margin-bottom: .5rem;
+	&:after {
+		content: '';
+		width: 6rem;
+		display: block;
+		border-bottom: 2px solid;
+		margin: 5px auto;
+		height: 0;
+	}
+}
+
+h3.subtitle {
+	font-size: 1.25rem;
+	color: @subtitle_color;
+	font-weight:300
+}
+
+.main__services__item h4 {
+	text-align: left;
+}
+
